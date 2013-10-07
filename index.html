@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO List</title>
+</head>
+<body>
+  <div id="todo">
+  </div>
+
+  <script type="text/template" id="item-template">
+    <div>
+      <input id="todo_complete" type="checkbox" <%= completed ? 'checked="checked"' : '' %> />
+      <%= title %>
+    </div>
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/backbone.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
